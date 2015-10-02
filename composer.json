@@ -1,0 +1,14 @@
+{
+    "name": "ogursan/russian-city-morpher",
+    "version": "v1.0",
+    "description": "Instrument helping decline russian town names in cases",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "\\Ogursan": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
