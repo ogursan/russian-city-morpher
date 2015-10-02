@@ -1,7 +1,7 @@
 <?php
 use \Ogursan\CityMorpher;
 
-return [
+return array(
     'ярославль' => CityMorpher::EXCEPTION_GENDER_MALE,
     'елец'           => array(
         CityMorpher::CASE_NOM => 'Елец',
@@ -27,4 +27,4 @@ return [
         CityMorpher::CASE_INS => 'Щучьим',
         CityMorpher::CASE_ABL => 'Щучьем'
     ),
-];
+);
